@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inner{
+  /*   border: 2px solid black; */
+    font-family: lato;
+  }
+  
+  #continue{
+    background-color: #ebd234;
+    font-size: 13px;
+    border: 1px solid #798ba8;
+    border-radius: 3px;
+    padding: 6px 180px;
+  }
+  .enterInfo{
+      color: #798ba8;
+      align-content: left;
+      font-size: 13px;
+      padding: 4px 5px;
+      border-radius: 2px;
+      border: 2px solid #798ba8;
+    }
+  
+  .superInner{
+    border: 2px solid black;
+    display: nowrap;
+    width: 100%;
+    height: 100%;
+  /*   justify-content: space-between; */
+  }
+  
+  #password{
+    display:inline-block;
+    margin-left:0px;
+  }
+  
+  #forgotPassword{
+    display:inline-block;
+    margin-left: 220px;
+  }
+  
+  .newToAmazon{
+    display: flex;
+    align-items: center;
+  }
+  .dash{
+    flex: 1;
+    height: 1px;
+    background-color: black;
+  }
+  
+  .space{
+    padding: 0px 7px;
+  }
+  
+  #newAccount{
+    background-color: #f7f3f2;
+    font-size: 13px;
+    border: 1px solid #798ba8;
+    border-radius: 3px;
+    padding: 6px 122px;
+  }
+  
+  #line{
+    padding: 0px 100px;
+  }
+  
+  .links{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-left: 795px;
+  }
+  li::before{
+    content: "\27A4";
+    font-size: 12px;
+  }
+  li{
+    list-style:none;
+  }
